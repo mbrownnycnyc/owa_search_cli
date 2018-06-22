@@ -46,6 +46,7 @@ namespace exch2007_owa_searcher
             //SecureString securePassword;
 
             //http://commandline.codeplex.com/
+            //  Install-Package CommandLineParser. 
             var options = new Options();
             CommandLine.Parser.Default.ParseArguments(args, options);
             //perform validation of all arguments:
